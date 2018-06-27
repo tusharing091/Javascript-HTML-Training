@@ -1,0 +1,83 @@
+#gameName{
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 217, 0);
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+    
+}
+#containerHeader
+{
+    text-align: center
+}
+
+.styleNew{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(238, 255, 5, 0), rgba(255, 196, 0, 0.75), rgba(0, 0, 0, 0));
+   
+}
+
+.scatter{
+    text-align: center;
+    
+}
+#scatter2{
+    text-align: center;
+    margin-top: 25px;
+}
+.pContainer
+{
+    text-align: center;
+}
+.p1
+{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: azure
+    
+}
+#p2
+{
+    top: -4px;
+    position: relative;
+
+}
+
+#icon{
+    vertical-align: middle;
+}
+.scatter_text{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.image
+{
+    margin-left: 70px;
+}
+
+.pst{
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    color: azure
+
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    background: linear-gradient(black,#01053f);
+    background-repeat: no-repeat;
+    
+}
+html{
+    height: 100%
+}
