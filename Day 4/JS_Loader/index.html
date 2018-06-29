@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Loading Progress Bar</title>
+     <link href="css/progress_bar.css" rel="stylesheet"/>
+</head>
+
+
+<body>
+    <div id="loadingWindow">
+        <div id="loading">
+            <div id="dynamicLoader"></div>
+        </div>
+        <div id="percentage">
+
+        </div>
+    </div>
+    
+</body>
+</html>
+<script>
+
+    let loadingProgress=0;
+    let dynamicLoader=document.getElementById("dynamicLoader");
+    let percentage=document.getElementById("percentage");
+
+    let date=new Date();
+
+    let previousTime;
+    let currentTime;
+    
+       let interval=setInterval(()=>{
+           
+           
+            if(loadingProgress<100)
+           {
+            loadingProgress+=0.2;
+            dynamicLoader.style.width=loadingProgress+"%";
+            percentage.innerHTML=Math.round(loadingProgress)+"%";
+
+           }
+           else{
+               clearInterval(interval);
+           }
+           
+        },16)
+</script>
